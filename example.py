@@ -1,22 +1,23 @@
 # Load lib
-import tts
+from MoeGoe import MoeTTS
 
 # Load tts model
-model = tts.MoeTTS('model/1164_epochs.pth', 
-          'model/config.json')
+model = MoeTTS('model/1164_epochs.pth', 
+                   'model/config.json')
 
 # Generate wav file
-model.wav('이것은 테스트 문장입니다.')
+text = '이것은 테스트 문장입니다.'
+model.wav(text)
+
 
 # You can change speaker and path
-## list of speakers
-print(model.speakers) 
+print(model.speakers) ## print list of speakers
 
-model.wav(text='이것은 테스트 문장입니다.', speaker_id=4, filepath='./demo.wav')
+model.wav(text=text, speaker_id=4, filepath='./demo.wav')
 
 
 # You can receive the data as array format
-data = model.main('이것은 테스트 문장입니다.', 2) # Numpy array
+data = model.main(text, 2) # Numpy array
 
 ## And you can play it directly
 import simpleaudio as sa
