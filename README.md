@@ -15,7 +15,7 @@ In this example, [this Korean model](https://github.com/CjangCjengh/TTSModels#th
 
 ```Python
 # Load lib
-from MoeGoe import MoeTTS
+from MoeGoeTTS import MoeTTS
 
 # Load tts model
 model = MoeTTS('model/1164_epochs.pth', 
