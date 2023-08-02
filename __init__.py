@@ -1,1 +1,1 @@
-from .MoeGoe import *
+from .MoeGoeTTS import *
