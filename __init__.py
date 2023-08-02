@@ -1,1 +1,1 @@
-from .MoeGoeTTS import *
+from .moegoe_tts import *
