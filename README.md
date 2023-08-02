@@ -27,16 +27,16 @@ text = '이것은 테스트 문장입니다.'
 model.wav(text)
 
 
-# You can change speaker and path
+# Change the speaker and the path
 print(model.speakers) ## print list of speakers
 
 model.wav(text=text, speaker_id=4, filepath='./demo.wav')
 
 
-# You can receive the data as array format
+# Get the data as array format
 data = model.main(text, 2) # Numpy array
 
-## And you can play it directly
+## Play it directly
 import simpleaudio as sa
 sampling_rate =  model.hps_ms.data.sampling_rate
 
