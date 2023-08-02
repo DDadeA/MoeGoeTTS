@@ -9,9 +9,7 @@ cd MoeGoeTTS
 pip install -r requirements.txt
 ```
 2. Download TTS Model
-
-## Models Link
-- [Pretrained models](https://github.com/CjangCjengh/TTSModels)
+- [Pretrained models from CjanCjengh](https://github.com/CjangCjengh/TTSModels)
 
 [This Korean model](https://github.com/CjangCjengh/TTSModels#the-fox-awaits-me) will be used in this example.
 
