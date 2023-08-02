@@ -2,17 +2,20 @@
 This is a fork for easy use of VITS Text-To-Speech on Python.
 
 # Quick start
-Install requirements
+1. Clone this repository into the project folder (or $PYTHONPATH)
 ```
+git clone https://github.com/DDadeA/MoeGoeTTS.git
+cd MoeGoeTTS
 pip install -r requirements.txt
 ```
+2. Download TTS Model
 
-You need TTS Model for this.
 ## Models Link
 - [Pretrained models](https://github.com/CjangCjengh/TTSModels)
 
-In this example, [this Korean model](https://github.com/CjangCjengh/TTSModels#the-fox-awaits-me) will be used.
+[This Korean model](https://github.com/CjangCjengh/TTSModels#the-fox-awaits-me) will be used in this example.
 
+3. Import the module.
 ```Python
 # Load lib
 from MoeGoeTTS import MoeGoeTTS

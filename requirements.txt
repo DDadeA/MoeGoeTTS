@@ -1,6 +1,6 @@
 numba
 librosa
-numpy==1.22.0
+numpy
 scipy
 torch
 unidecode
