@@ -1,9 +1,9 @@
 import sys
 from scipy.io.wavfile import write
-from text import text_to_sequence
-from models import SynthesizerTrn
-import utils
-import commons
+from .text import text_to_sequence
+from .models import SynthesizerTrn
+from . import utils
+from . import commons
 import re
 from torch import no_grad, LongTensor
 
