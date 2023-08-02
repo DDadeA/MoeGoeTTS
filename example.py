@@ -1,8 +1,8 @@
 # Load lib
-from MoeGoeTTS import MoeTTS
+from MoeGoeTTS import MoeGoeTTS
 
 # Load tts model
-model = MoeTTS('model/1164_epochs.pth', 
+model = MoeGoeTTS('model/1164_epochs.pth', 
                    'model/config.json')
 
 # Generate wav file

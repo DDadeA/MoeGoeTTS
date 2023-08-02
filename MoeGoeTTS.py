@@ -7,7 +7,7 @@ import commons
 import re
 from torch import no_grad, LongTensor
 
-class MoeTTS():
+class MoeGoeTTS():
     def __init__(self, model:str, config:str):
         
         self.hps_ms = utils.get_hparams_from_file(config)
